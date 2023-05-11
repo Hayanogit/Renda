@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yaw-cr-ikH">
-                                <rect key="frame" x="175" y="375" width="64" height="125"/>
+                                <rect key="frame" x="0.0" y="375" width="414" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="104"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -39,7 +39,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapTapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMG-CJ-RLd"/>
+                                    <action selector="tapTapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="SbZ-CA-YiS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,12 +48,12 @@
                     </view>
                     <connections>
                         <outlet property="countLabel" destination="Yaw-cr-ikH" id="aVg-cx-XcI"/>
-                        <outlet property="tapButton" destination="bJt-V8-oP4" id="Nqq-iC-J06"/>
+                        <outlet property="tapButton" destination="bJt-V8-oP4" id="KJe-5h-1GW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="4"/>
+            <point key="canvasLocation" x="113.04347826086958" y="3.3482142857142856"/>
         </scene>
     </scenes>
 </document>

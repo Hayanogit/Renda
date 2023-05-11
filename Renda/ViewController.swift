@@ -21,9 +21,16 @@ class ViewController: UIViewController {
         tapButton.layer.cornerRadius = 125
     }
     
+    
     @IBAction func tapTapButton(){
         tapCount = tapCount + 1
         countLabel.text = String(tapCount)
+        if tapCount >= 10 {
+            countLabel.textColor = UIColor.red
+            countLabel.text = String(tapCount)
+        }else{
+            countLabel.textColor = UIColor.black
+        }
     }
 
 }
